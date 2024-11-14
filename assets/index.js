@@ -18,5 +18,8 @@ const equal = () => {
         alert('Tidak Ada Input Nilai');
     } else {
         input.value = eval(input.value);
+        if(input.value == 64) {
+            input.value = "I ♡ Araaaa";
+        }
     }
 }
